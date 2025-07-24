@@ -1,0 +1,16 @@
+streamlit
+fitz                  # PyMuPDF
+easyocr
+numpy
+requests
+pandas
+python-docx
+Pillow                # PIL is part of Pillow
+scikit-learn          # For cosine_similarity
+google-generativeai
+python-dateutil       # For dateutil.parser
+SpeechRecognition
+gTTS
+pydub
+fuzzywuzzy
+pickle-mixin          # While 'pickle' is built-in, if you had used 'pickle-mixin' for custom objects, it would be here. As it's just 'pickle', no specific external package is needed for 'pickle' itself, but other libraries might rely on it.
