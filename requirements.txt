@@ -1,16 +1,16 @@
 streamlit
-fitz                  # PyMuPDF
+PyMuPDF               # This is the correct package for 'import fitz'
 easyocr
 numpy
 requests
 pandas
 python-docx
-Pillow                # PIL is part of Pillow
-scikit-learn          # For cosine_similarity
+Pillow
+scikit-learn
 google-generativeai
-python-dateutil       # For dateutil.parser
+python-dateutil
 SpeechRecognition
 gTTS
 pydub
 fuzzywuzzy
-pickle-mixin          # While 'pickle' is built-in, if you had used 'pickle-mixin' for custom objects, it would be here. As it's just 'pickle', no specific external package is needed for 'pickle' itself, but other libraries might rely on it.
+# No 'pickle-mixin' needed unless you specifically use it for custom classes
